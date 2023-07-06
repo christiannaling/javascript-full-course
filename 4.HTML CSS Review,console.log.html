@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML CSS Review, console.log</title>
+
+    <style>
+        .yellow-btn{
+            background-color: yellow;
+        }
+        .orange-btn{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>4a. Create a button with the text 'click' inside.</p>
+        <button class="click-btn">Click</button>
+    </div>
+    <div>
+        <p>4b. Create 2 buttons. 1 with your name and 1 with your favorite food.</p>
+        <button>Christian</button>
+        <button>Ramen</button>
+    </div>
+    <div>
+        <p>4c. Create a paragraph with the text 'Hello, world!' inside.</p>
+        <p>Hello, world!</p>
+    </div>
+    <div>
+        <p>4d. Continuing from exercise 4c, create a paragraph below the  previous paragraph and write something you did today</p>
+        <p>Hello, world!</p>
+        <p>Today I went to the grocery store to buy some eggs and vegetables.</p>
+    </div>
+    <div>
+        <p>4e. Create 2 buttons 'Add to cart' and 'Buy now'. Use CSS to give them yellow and orange background colors:</p>
+        <button class="yellow-btn">Add to cart</button>
+        <button class="orange-btn">Buy now</button>
+    </div>
+    <div>
+        <p>
+            4f. Add the HTML structure to exercise 4e (add <!DOCTYPE html>,<html><head>,<body>) and put the elements into the <head> or <body>. (For more practice, add the HTML structureto exercise 4a - 4d)
+        </p>
+    </div>
+    <div>
+        <p>4g. Continuing from 4f, change the title at the top of the tab to 'Buttons'.</p>
+    </div>
+    <div>
+        <p>4h. Continuing from 4g, add a script element so that when the page loads, it displays the message 'Welcome!' in the Console.</p>
+    </div>
+    <div>
+        <p>4i-4j. Using HTML and CSS, try to copy the design on the right. (Make sure to follow the HTML structure.)</p>
+        <p>Adults Plain Cotton T-shirt</p>
+        <p>Price: $7.99</p>
+        <button class="yellow-btn" onclick="alert('Added')">
+            Add to cart
+        </button>
+        <button class="orange-btn" onclick="alert('Loading'); alert('Purchased');">
+            Buy now
+        </button>
+    </div>
+
+    <script>
+        console.log('Welcome!');
+
+        console.log('Loading...');
+    </script>
+</body>
+</html>
